@@ -4,7 +4,7 @@ Azsub is a small CLI tool for quickly switching between various Azure subscripti
 
 # Installation
 
-To build the executable run:
+To build the executable run the following.
 
 For windows:
 
