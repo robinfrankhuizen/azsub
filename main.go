@@ -38,11 +38,11 @@ func main() {
 }
 
 func parseOptions() Options {
-	verbosePtr := flag.Bool("verbose", false, "Show more information about subscriptions")
-	shortVerbosePtr := flag.Bool("v", false, "Show more information about subscriptions")
+	v := flag.Bool("v", false, "Show subscription ids")
 	flag.Parse()
+
 	return Options{
-		Verbose: *verbosePtr || *shortVerbosePtr,
+		Verbose: *v,
 	}
 }
 
